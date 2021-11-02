@@ -21,13 +21,19 @@ Touch focus
                       
 # Usage
 dependencies {
+    
     implementation 'com.budiyev.android:code-scanner:2.1.0'
+    
     implementation 'com.karumi:dexter:6.2.3'
 }
 
 Add camera permission to AndroidManifest.xml (Don't forget about dynamic permissions on API >= 23):
 
-<uses-permission android:name="android.permission.CAMERA"/>
+\<uses-permission android:name="android.permission.CAMERA" \/>
+
+
+
+# ViewS
 
 
 ![Screenshot_20211103-035024](https://user-images.githubusercontent.com/40088619/139959402-57d0450e-b770-4ae3-9ace-43560886acbb.png)
